@@ -3,6 +3,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 /* Início do menu */
@@ -76,8 +80,63 @@
     font-size: 16px;
     line-height: 1.5;
 
+    & .primeira-secao-historia button {
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        background-color: darkgray;
+        padding: 2px;
+        color: #fff;
+        text-align: justify;
+    }
+
+    & .primeira-secao-historia img {
+        display: flex;
+        margin: auto;
+    }
+
     & .primeira-secao-historia p {
         display: block;
         text-align: justify;
+    }
+
+    & .modal {
+        position: fixed;
+        padding: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        transform: scale(1.1);
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 0.25s ease-in-out transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+    }
+    & .modal-content {
+        background-color: white;
+        padding: 16px 24px;
+        width: 384px;
+        border-radius: 5px;
+    }
+    & .modal .modal-content span {
+        display: flexbox;
+        width: 24px;
+        cursor: pointer;
+        background-color: lightgray;
+        text-align: center;
+        padding: 5px 10px;
+        line-height: 24px;
+    }
+    & .modal .modal-content span:hover {
+        background-color: darkgray;
+    }
+    & .show-modal {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
     }
 }

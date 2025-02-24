@@ -3,13 +3,19 @@ const nav = document.querySelector(".nav");
 hamburger.addEventListener("click", () => nav.classList.toggle("active"));
 
 /* Modal destaque */
-const span = document.querySelector("span")
-const modal = document.querySelector("dialog")
-const buttonClose = document.querySelector("dialog button")
-
-span.onmouseover = function () {
-    modal.showModal()
+function showModal() {
+    var element = document.getElementById("modal");
+    element.classList.add("show-modal");
 }
-modal.onmousemove = function () {
-    modal.close()
+function hideModal() {
+    var element = document.getElementById("modal");
+    element.classList.remove("show-modal");
+}
+function primeiroModal() {
+    var element = document.getElementById("modal1");
+    element.classList.add("show-modal");
+}
+function segundoModal() {
+    var element = document.getElementById("modal1");
+    element.classList.remove("show-modal");
 }
