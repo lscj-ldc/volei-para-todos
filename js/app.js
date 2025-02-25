@@ -92,3 +92,30 @@ function btnHmF() {
     var element = document.getElementById("secaoNove");
     element.classList.remove("segundo-plano");
 }
+
+function btnEf() {
+    var element = document.getElementById("secaoDez");
+    element.classList.add("segundo-plano");
+}
+function btnEfF() {
+    var element = document.getElementById("secaoDez");
+    element.classList.remove("segundo-plano");
+}
+
+function btnC() {
+    var element = document.getElementById("secaoOnze");
+    element.classList.add("segundo-plano");
+}
+function btnCF() {
+    var element = document.getElementById("secaoOnze");
+    element.classList.remove("segundo-plano");
+}
+
+function btnM() {
+    var element = document.getElementById("secaoDoze");
+    element.classList.add("segundo-plano");
+}
+function btnMF() {
+    var element = document.getElementById("secaoDoze");
+    element.classList.remove("segundo-plano");
+}
