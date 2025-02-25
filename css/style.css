@@ -80,7 +80,7 @@
     font-size: 16px;
     line-height: 1.5;
 
-    & .primeira-secao-historia button {
+    & .psh button {
         border: 0;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
@@ -90,17 +90,17 @@
         text-align: justify;
     }
 
-    & .primeira-secao-historia img {
+    & .psh img {
         display: flex;
         margin: auto;
     }
 
-    & .primeira-secao-historia p {
+    & .psh p {
         display: block;
         text-align: justify;
     }
 
-    & .modal {
+    & .ssh {
         position: fixed;
         padding: 0;
         left: 0;
@@ -116,13 +116,13 @@
         visibility: hidden;
         transition: visibility 0.25s ease-in-out transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
     }
-    & .modal-content {
+    & .tshc {
         background-color: white;
         padding: 16px 24px;
         width: 384px;
         border-radius: 5px;
     }
-    & .modal .modal-content span {
+    & .ssh .tshc span {
         display: flexbox;
         width: 24px;
         cursor: pointer;
@@ -131,10 +131,11 @@
         padding: 5px 10px;
         line-height: 24px;
     }
-    & .modal .modal-content span:hover {
+    & .ssh .tshc span:hover {
         background-color: darkgray;
     }
-    & .show-modal {
+
+    & .segundo-plano {
         opacity: 1;
         visibility: visible;
         transform: scale(1.0);

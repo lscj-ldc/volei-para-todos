@@ -3,19 +3,20 @@ const nav = document.querySelector(".nav");
 hamburger.addEventListener("click", () => nav.classList.toggle("active"));
 
 /* Modal destaque */
-function showModal() {
-    var element = document.getElementById("modal");
-    element.classList.add("show-modal");
+function btnAutor() {
+    var element = document.getElementById("secao");
+    element.classList.add("segundo-plano");
 }
-function hideModal() {
-    var element = document.getElementById("modal");
-    element.classList.remove("show-modal");
+function btnFechar() {
+    var element = document.getElementById("secao");
+    element.classList.remove("segundo-plano");
 }
-function primeiroModal() {
-    var element = document.getElementById("modal1");
-    element.classList.add("show-modal");
+
+function btnAno() {
+    var element = document.getElementById("secaoUm");
+    element.classList.add("segundo-plano");
 }
-function segundoModal() {
-    var element = document.getElementById("modal1");
-    element.classList.remove("show-modal");
+function btnFechar() {
+    var element = document.getElementById("secao");
+    element.classList.remove("segundo-plano");
 }
