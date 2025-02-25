@@ -85,7 +85,6 @@
     text-indent: 2em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.5;
 
     & .psh button {
         border: 0;
@@ -107,6 +106,7 @@
     & .psh p {
         display: block;
         text-align: justify;
+        line-height: 1.6;
     }
 
     & .ssh {
@@ -125,12 +125,14 @@
         visibility: hidden;
         transition: visibility 0.25s ease-in-out transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
     }
+
     & .tshc {
         background-color: var(--branco);
         padding: 16px 24px;
         width: 384px;
         border-radius: 5px;
     }
+
     & .ssh .tshc span {
         display: flexbox;
         color: var(--branco);
@@ -142,6 +144,7 @@
         padding: 5px 10px;
         line-height: 24px;
     }
+
     & .ssh .tshc span:hover {
         background-color: var(--branco);
     }

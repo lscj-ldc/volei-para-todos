@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/mobile.css">
     <title>Super Volei</title>
 </head>
+
 <body>
     <header class="header">
         <nav class="nav">
@@ -22,12 +24,19 @@
     <main class="historia">
         <section class="psh"><!--psh = primeira secao historia-->
             <p>
-                <button onmouseover="btnAutor()">William George Morgan</button> (<button onmouseover="btnAno()">1870</button>-<button onmouseover="btnAnoI()">1942</button>), que nasceu no Estado de Nova Iorque, entrou para a história como o inventor do jogo do voleibol, para a qual ele deu originalmente o nome de "Minnonette.” Morgan realizou seus estudos de graduação da escola de Springfield da ACM (Associação Cristã de Moços), onde conheceu James Naismith, que, em 1896, inventou o basquetebol. <br><br>
+                <button onclick="btnAutor()">William George Morgan</button> (<button
+                    onclick="btnAno()">1870</button>-<button onclick="btnAnoI()">1942</button>), que nasceu no <BUtton
+                    onclick="btnEni()">Estado de Nova Iorque</BUtton>, entrou para a história como o inventor do jogo do
+                <button onclick="btnV()">voleibol</button>, para a qual ele deu originalmente o nome de "Minnonette.”
+                Morgan realizou seus estudos de graduação da escola de Springfield da ACM (Associação Cristã de Moços),
+                onde conheceu <button onclick="btnJn()">James Naismith</button>, que, em <button
+                    onclick="btnAnoJn()">1896</button>, inventou o basquetebol. <br><br>
             </p>
             <section class="ssh" id="secao"><!--ssh = segunda secao historia-->
                 <section class="tshc"><!--tshc = terceira secao historia conteudo-->
                     <span onmousemove="btnFechar()">&times;</span>
-                    <p>William George Morgan foi o inventor do voleibol, originalmente chamado "Mintonette", nome derivado do jogo badminton que ele resolveu mudar para melhor refletir a natureza do esporte.
+                    <p>William George Morgan foi o inventor do voleibol, originalmente chamado "Mintonette", nome
+                        derivado do jogo badminton que ele resolveu mudar para melhor refletir a natureza do esporte.
                     </p>
                     <img src="imagem/Sem título.jpg" alt="">
                 </section>
@@ -37,7 +46,8 @@
                 <section class="tshc"><!--tshc = terceira secao historia conteudo-->
                     <span onmousemove="btnAnoF()">&times;</span>
                     <p>
-                        1870 foi um ano comum do século XIX do actual Calendário Gregoriano, da Era de Cristo, e a sua letra dominical foi B, teve início a um sábado e terminou também a um sábado.
+                        1870 foi um ano comum do século XIX do actual Calendário Gregoriano, da Era de Cristo, e a sua
+                        letra dominical foi B, teve início a um sábado e terminou também a um sábado.
                     </p>
                     <img src="imagem/AnoB.jpg" alt="">
                 </section>
@@ -47,7 +57,91 @@
                 <section class="tshc"><!--tshc = terceira secao historia conteudo-->
                     <span onmousemove="btnAnoIF()">&times;</span>
                     <p>
-                        1842 foi um ano comum do século XX que começou numa quinta-feira, segundo o calendário Gregoriano. A sua letra dominical foi D. A terça-feira de Carnaval ocorreu a 17 de fevereiro e o domingo de Páscoa a 5 de abril.
+                        1842 foi um ano comum do século XX que começou numa quinta-feira, segundo o calendário
+                        Gregoriano. A sua letra dominical foi D. A terça-feira de Carnaval ocorreu a 17 de fevereiro e o
+                        domingo de Páscoa a 5 de abril.
+                    </p>
+                    <img src="imagem/AnoB.jpg" alt="">
+                </section>
+            </section>
+
+            <section class="ssh" id="secaoTres"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnEniF()">&times;</span>
+                    <p>
+                        Nova Iorque ou Nova York é um dos 50 estados dos Estados Unidos, localizado na Região nordeste
+                        do pais. É o maior centro financeiro e comercial do pais, e o quarto maior centro industrial dos
+                        Estados Unidos, atrás apenas de Califórnia, Texas e Ohio.
+                    </p>
+                    <img src="imagem/eny.jpg" alt="">
+                </section>
+            </section>
+
+            <section class="ssh" id="secaoQuatro"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnvF()">&times;</span>
+                    <p>
+                        Volei é um esporte praticado numa quadra dividida em duas partes por uma rede, possuindo duas
+                        equipes de seis jogadores em cada lado. O voleibol foi originalmente chamado de Mintonette,
+                        devido à sua semelhança com o Badminton.
+                    </p>
+                    <img src="imagem/volei.jpg" alt="">
+                </section>
+            </section>
+
+            <section class="ssh" id="secaoCinco"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnJnF()">&times;</span>
+                    <p>
+                        James Naismith foi um professor de educação física canadense e inventor do basquetebol.
+                    </p>
+                    <img src="imagem/jn.jpg" alt="">
+                </section>
+            </section>
+
+            <section class="ssh" id="secaoSeis"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnAnoJnF()">&times;</span>
+                    <p>
+                        1896 foi um ano bissexto do actual Calendário Gregoriano e as suas letras dominicais foram E e
+                        D, teve início a uma quarta-feira e terminou a uma quinta-feira.
+                    </p>
+                    <img src="imagem/AnoB.jpg" alt="">
+                </section>
+            </section>
+        </section>
+
+        <section class="psh">
+            <p>
+                Após graduar-se, Morgan passou seu primeiro ano na ACM de <button onclick="btnAm()">Auburn
+                (Maine)</button>, após o qual, durante o verão de <button onclick="btnAmAno()">1895</button>, mudou-se para a ACM de <button onclick="btnHm()">Holyoke (Massachusetts)</button>, onde se tornou diretor de <button onclick="btnEf()">Educação Física</button>. Nessa função ele teve a oportunidade de estabelecer, desenvolver e dirigir um vasto programa de exercícios e aulas de esporte para adultos do sexo masculino.
+            </p>
+
+            <section class="ssh" id="secaoSete"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnAmF()">&times;</span>
+                    <p>
+                        Auburn é uma cidade localizada no estado Americano do Maine, no Condado de Androscoggin. Foi fundada em 1786, e incorporada em 1868.
+                    </p>
+                    <img src="imagem/auburn.jpg" alt="">
+                </section>
+            </section>
+
+            <section class="ssh" id="secaoOito"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnAmAnoF()">&times;</span>
+                    <p>
+                        1895 foi um ano comum do século XIX do actual Calendário Gregoriano, da Era de Cristo, a sua letra dominical foi F, teve início a uma terça-feira e terminou também a uma terça-feira.
+                    </p>
+                    <img src="imagem/AnoB.jpg" alt="">
+                </section>
+            </section>
+
+            <section class="ssh" id="secaoNove"><!--ssh = segunda secao historia-->
+                <section class="tshc"><!--tshc = terceira secao historia conteudo-->
+                    <span onmousemove="btnHmF()">&times;</span>
+                    <p>
+                        Holyoke é uma cidade dos Estados Unidos da América no Estado de Massachusetts, localizada no Condado de Hampden.
                     </p>
                     <img src="imagem/AnoB.jpg" alt="">
                 </section>
@@ -56,4 +150,5 @@
     </main>
     <script defer src="js/app.js"></script>
 </body>
+
 </html>
