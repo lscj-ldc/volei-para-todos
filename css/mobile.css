@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+
+:root {
+    --azul: #002777;
+    --amarelo: #FFDF00;
+    --branco: #fff;
+    --verde: #009C3B;
+    --preto: #000;
+}
+
 @media (max-width: 750px) {
     .header .nav .hamburger {
         display: block;
@@ -12,7 +21,7 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: #a5c;
+        background: var(--azul);
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
         flex-direction: column;

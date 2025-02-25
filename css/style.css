@@ -9,9 +9,17 @@
     font-family: sans-serif;
 }
 
+:root {
+    --azul: #002777;
+    --amarelo: #FFDF00;
+    --branco: #fff;
+    --verde: #009C3B;
+    --preto: #000;
+}
+
 /* Início do menu */
 .header {
-    background: #a5c;
+    background: var(--azul);
     padding-inline: 16px;
 
     & a {
@@ -30,7 +38,7 @@
 
     & .logo {
         font-size: 48px;
-        color: #fff;
+        color: var(--branco);
     }
 
     & .nav-list {
@@ -41,7 +49,7 @@
 
     & .nav-list a {
         font-size: 18px;
-        color: #fff;
+        color: var(--branco);
         padding-block: 16px;
     }
 
@@ -49,7 +57,7 @@
         display: none;
         border: none;
         background: none;
-        border-top: 3px solid #fff;
+        border-top: 3px solid var(--branco);
         cursor: pointer;
     }
 
@@ -59,7 +67,7 @@
         display: block;
         width: 30px;
         height: 3px;
-        background: #fff;
+        background: var(--branco);
         margin-top: 5px;
         position: relative;
         transition: 0.3s;
@@ -68,7 +76,6 @@
 
 .hero {
     height: calc(100vh - 70px);
-    background: center / cover no-repeat url(imagem/bg.jpg);
 }
 
 /* Início da página história */
@@ -82,12 +89,14 @@
 
     & .psh button {
         border: 0;
+        border-radius: 5px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        background-color: darkgray;
-        padding: 2px;
-        color: #fff;
+        background-color: var(--azul);
+        padding: 3px;
+        color: var(--branco);
         text-align: justify;
+        cursor: pointer;
     }
 
     & .psh img {
@@ -117,22 +126,24 @@
         transition: visibility 0.25s ease-in-out transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
     }
     & .tshc {
-        background-color: white;
+        background-color: var(--branco);
         padding: 16px 24px;
         width: 384px;
         border-radius: 5px;
     }
     & .ssh .tshc span {
         display: flexbox;
+        color: var(--branco);
+        border-radius: 5px;
         width: 24px;
         cursor: pointer;
-        background-color: lightgray;
+        background-color: var(--azul);
         text-align: center;
         padding: 5px 10px;
         line-height: 24px;
     }
     & .ssh .tshc span:hover {
-        background-color: darkgray;
+        background-color: var(--branco);
     }
 
     & .segundo-plano {

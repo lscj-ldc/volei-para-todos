@@ -16,7 +16,16 @@ function btnAno() {
     var element = document.getElementById("secaoUm");
     element.classList.add("segundo-plano");
 }
-function btnFechar() {
-    var element = document.getElementById("secao");
+function btnAnoF() {
+    var element = document.getElementById("secaoUm");
+    element.classList.remove("segundo-plano");
+}
+
+function btnAnoI() {
+    var element = document.getElementById("secaoDois");
+    element.classList.add("segundo-plano");
+}
+function btnAnoIF() {
+    var element = document.getElementById("secaoDois");
     element.classList.remove("segundo-plano");
 }
