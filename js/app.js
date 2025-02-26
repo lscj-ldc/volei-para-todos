@@ -119,3 +119,30 @@ function btnMF() {
     var element = document.getElementById("secaoDoze");
     element.classList.remove("segundo-plano");
 }
+
+function btnCh() {
+    var element = document.getElementById("secaoTreze");
+    element.classList.add("segundo-plano");
+}
+function btnChF() {
+    var element = document.getElementById("secaoTreze");
+    element.classList.remove("segundo-plano");
+}
+
+function btnI() {
+    var element = document.getElementById("secaoQuatorze");
+    element.classList.add("segundo-plano");
+}
+function btnIF() {
+    var element = document.getElementById("secaoQuatorze");
+    element.classList.remove("segundo-plano");
+}
+
+function btnEu() {
+    var element = document.getElementById("secaoQuinze");
+    element.classList.add("segundo-plano");
+}
+function btnEuF() {
+    var element = document.getElementById("secaoQuinze");
+    element.classList.remove("segundo-plano");
+}
