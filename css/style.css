@@ -161,13 +161,19 @@
     }
 
     & .cronologia h2 {
-        margin: 20px;
-        color: var(--azul);
+        margin: 20px 0;
+        color: var(--branco);
+        background-color: var(--verde);
+        padding: 5px;
     }
 
     & .cronologia p {
         line-height: 24px;
         text-align: justify;
+    }
+
+    & .cronologia hr {
+        margin: 10px 0;
     }
 
     & .cronologia span {
