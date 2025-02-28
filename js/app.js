@@ -146,3 +146,68 @@ function btnEuF() {
     var element = document.getElementById("secaoQuinze");
     element.classList.remove("segundo-plano");
 }
+
+function btnCanada() {
+    var element = document.getElementById("secaoDezesseis");
+    element.classList.add("segundo-plano");
+}
+function btnCanadaF() {
+    var element = document.getElementById("secaoDezesseis");
+    element.classList.remove("segundo-plano");
+}
+
+function btnFilipinas() {
+    var element = document.getElementById("secaoDezesete");
+    element.classList.add("segundo-plano");
+}
+function btnFilipinasF() {
+    var element = document.getElementById("secaoDezesete");
+    element.classList.remove("segundo-plano");
+}
+
+function btnChina() {
+    var element = document.getElementById("secaoDezoito");
+    element.classList.add("segundo-plano");
+}
+function btnChinaF() {
+    var element = document.getElementById("secaoDezoito");
+    element.classList.remove("segundo-plano");
+}
+
+function btnJapao() {
+    var element = document.getElementById("secaoDezenove");
+    element.classList.add("segundo-plano");
+}
+function btnJapaoF() {
+    var element = document.getElementById("secaoDezenove");
+    element.classList.remove("segundo-plano");
+}
+
+function btnBirmania() {
+    var element = document.getElementById("secaoBirmania");
+    element.classList.add("segundo-plano");
+}
+function btnBirmaniaF() {
+    var element = document.getElementById("secaoBirmania");
+    element.classList.remove("segundo-plano");
+}
+
+function btnIndia() {
+    var element = document.getElementById("secaoIndia");
+    element.classList.add("segundo-plano");
+}
+
+function btnIndiaF() {
+    var element = document.getElementById("secaoIndia");
+    element.classList.remove("segundo-plano");
+}
+
+function btnMexico() {
+    var element = document.getElementById("secaoMexico");
+    element.classList.add("segundo-plano");
+}
+
+function btnMexicoF() {
+    var element = document.getElementById("secaoMexico");
+    element.classList.remove("segundo-plano");
+}

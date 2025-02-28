@@ -91,9 +91,9 @@
         border-radius: 5px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        background-color: var(--azul);
+        background-image: linear-gradient(to bottom, var(--branco) 80%, var(--azul)1%);
         padding: 3px;
-        color: var(--branco);
+        color: var(--preto);
         text-align: justify;
         cursor: pointer;
     }
@@ -153,5 +153,24 @@
         opacity: 1;
         visibility: visible;
         transform: scale(1.0);
+    }
+
+/* Início da cronologia */
+    & .cronologia h1 {
+        margin: 20px;
+    }
+
+    & .cronologia h2 {
+        margin: 20px;
+        color: var(--azul);
+    }
+
+    & .cronologia p {
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    & .cronologia span {
+        font-weight: bold;
     }
 }
