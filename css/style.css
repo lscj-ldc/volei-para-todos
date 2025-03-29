@@ -74,8 +74,11 @@
     }
 }
 
-.hero {
-    height: calc(100vh - 70px);
+.corpo {
+    display: flex;
+    max-width: 90vw;
+    margin: 5px auto;
+
 }
 
 /* Início da página história */
