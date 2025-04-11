@@ -63,7 +63,7 @@
             <a class="carousel-item" href="#three!"><img src="Imagens/Banner/BannerM3.jpg" class="mobile"></a>
         </div>
         
-        <!--div id="meuModal" class="modal center" style="background-color: #FFD204; color: #223A8F;">
+        <div id="meuModal" class="modal center" style="background-color: #FFD204; color: #223A8F;">
             <div class="modal-content" style="padding: 5px;">
                 <h4 style="margin:20px;"><span style="text-transform: uppercase; background-color: #223A8F; color: #FFD204; padding: 5px 10px; border-radius:25px;">Novidades 2025</span></h4>
                 
@@ -112,18 +112,18 @@
             <div class="modal-footer">
                 <a href="#!" class="modal-close waves-effect btn-flat"><span style="background-color:#FFD204; color:#223A8F; padding:5px; border-radius:15px;"><b>FECHAR</b></span></a>
             </div>
-        </div-->
+        </div>
         
         <div id="SO" style="margin-bottom: 100px;"></div>
         <div class="LateralE" style="width:100%; margin: 0 auto; background-color:#223A8F;">
             <div class="objetivo">
                 <div style="color:#FFD204; padding: 20px;">
                     <h2 style="margin-top: 0px; display: flex; align-items: center; gap: 10px;">
-                        ESCOLA VÔLEI PARA TODOS
+                        H10 ESCOLA DE VÔLEI
                         <img class="responsive-img center" src="Imagens/LogoAS.png" style="height: auto; max-height: 1em;">
                     </h2>
 
-                    <p class="textoObjetivo" style="text-align: justify;">A Escola Vôlei Para Todos é um espaço dedicado à crianças e jovens (07 a 18 anos), com o intuito de contribuir na formação esportiva, através da nossa metodologia e pilares esportivos pautados na pedagogia do esporte. Nossa missão é tornar essas crianças e jovens apaixonadas pelo esporte, através de um ambiente prazeroso, contando com profissionais especialistas na modalidade. “Um lugar para se apaixonar pelo esporte”.</p>
+                    <p class="textoObjetivo" style="text-align: justify;">A H10 Escola de Vôlei é um espaço dedicado à crianças e jovens (07 a 18 anos), com o intuito de contribuir na formação esportiva, através da nossa metodologia e pilares esportivos pautados na pedagogia do esporte. Nossa missão é tornar essas crianças e jovens apaixonadas pelo esporte, através de um ambiente prazeroso, contando com profissionais especialistas na modalidade. “Um lugar para se apaixonar pelo esporte”.</p>
                 </div>
                 <div class="row row-objetivo">
                     <!-- Vídeo -->
@@ -133,7 +133,7 @@
 
                     <!-- Texto -->
                     <div class="col s12 m5 text-objetivo" style="color:#FFD204;">
-                        <h5 class="h10e10">Vôlei Para Todos É 10</h5>
+                        <h5 class="h10e10">H10 É 10</h5>
                         <ul class="browser-default" style="list-style-type: square !important; padding-left: 20px !important; margin-top:0px;">
                             <li class="textoObjetivo">Somos uma escola especializada em vôlei, pautada nos 4 pilares: gosto pela prática, desenvolvimento integral, integração da família e compromisso pedagógico.</li>
                         </ul>
@@ -523,17 +523,17 @@
                     <div class="col s12 m2" style="margin-bottom:25px;">
                         <img class="responsive-img" src="Imagens/Professores/1.jpg" width="60%;" style="border-radius: 5%;">
                         <h5 style="color:#223A8F; margin:0;">VALTER COSTA</h5>
-                        <p style="font-size: 1em; margin:0;">CEO Vôlei Para Todos Esportes, Professor e Gestor de Programas Esportivos</p>
+                        <p style="font-size: 1em; margin:0;">CEO H10 Esportes, Professor e Gestor de Programas Esportivos</p>
                     </div>
                     <div class="col s12 m2" style="margin-bottom:25px;">
                         <img class="responsive-img" src="Imagens/Professores/2.jpg" width="60%;" style="border-radius: 5%;">
                         <h5 style="color:#223A8F; margin:0;">RICARDO AMENDOLA</h5>
-                        <p style="font-size: 1em; margin:0;">Coordenador Pedagógico Escola Vôlei Para Todos, Treinador São Caetano</p>
+                        <p style="font-size: 1em; margin:0;">Coordenador Pedagógico H10 Escola de Vôlei, Treinador São Caetano</p>
                     </div>
                     <div class="col s12 m2" style="margin-bottom:25px;">
                         <img class="responsive-img" src="Imagens/Professores/3.jpg" width="60%;" style="border-radius: 5%;">
                         <h5 style="color:#223A8F; margin:0;">GIOVANNA BRAGGION</h5>
-                        <p style="font-size: 1em; margin:0;">Treinadora Escola Vôlei Para Todos- Unid Pinheiros e Vila Clementino, Personal Training</p>
+                        <p style="font-size: 1em; margin:0;">Treinadora H10 Escola de Vôlei - Unid Pinheiros e Vila Clementino, Personal Training</p>
                     </div>
                     <div class="col s12 m3 hide-on-samll-only"></div>
                 </div>
@@ -542,17 +542,17 @@
                     <div class="col s12 m2" style="margin-bottom:25px;">
                         <img class="responsive-img" src="Imagens/Professores/4.jpg" width="60%;" style="border-radius: 5%;">
                         <h5 style="color:#223A8F; margin:0;">FELIPE VAZZOLER</h5>
-                        <p style="font-size: 1em; margin:0;">Treinador Vôlei Para Todos Unid. Brooklin e Acre Clube, Graduado Ed Física - São Judas</p>
+                        <p style="font-size: 1em; margin:0;">Treinador Vôlei H10 Unid. Brooklin e Acre Clube, Graduado Ed Física - São Judas</p>
                     </div>
                     <div class="col s12 m2" style="margin-bottom:25px;">
                         <img class="responsive-img" src="Imagens/Professores/5.jpg" width="60%;" style="border-radius: 5%;">
                         <h5 style="color:#223A8F; margin:0;">DENNIS DECINA</h5>
-                        <p style="font-size: 1em; margin:0;">Treinador Escola Vôlei Para Todos, Professor Rio Branco e Beacon School, Graduado EEFE - USP</p>
+                        <p style="font-size: 1em; margin:0;">Treinador H10 Escola de Vôlei, Professor Rio Branco e Beacon School, Graduado EEFE - USP</p>
                     </div>
                     <div class="col s12 m2" style="margin-bottom:25px;">
                         <img class="responsive-img" src="Imagens/Professores/6.jpg" width="60%;" style="border-radius: 5%;">
                         <h5 style="color:#223A8F; margin:0;">MATEUS FERREIRA</h5>
-                        <p style="font-size: 1em; margin:0;">Estagiário Escola Vôlei Para Todos, Graduando Ed. Física - USCS</p>
+                        <p style="font-size: 1em; margin:0;">Estagiário H10 Escola de Vôlei, Graduando Ed. Física - USCS</p>
                     </div>
                     <div class="col s12 m3 hide-on-samll-only"></div>
                 </div>
@@ -747,7 +747,7 @@
                     <div class="col s12 m6" style="color:#000000;">
                         <h2 style="border-left: #FFD204 5px solid; padding-left: 15px; color:#223A8F;">VÔLEI CAMP • O MAIOR CAMP DE VÔLEI NAS FÉRIAS!</h2>
                         <p class="textoObjetivo"><a href="https://www.h10voleicamp.com.br" target="_blank">www.h10voleicamp.com.br</a></p>
-                        <p class="textoObjetivo">Conheça essa experiência incrível, que é o Vôlei Para Todos Igasite.</p>
+                        <p class="textoObjetivo">Conheça essa experiência incrível, que é o H10 Vôlei Camp.</p>
                     </div>
                     <div class="col s12 m6 center">
                         &nbsp;
@@ -770,7 +770,7 @@
                     <div class="timeline">
                         <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><p><b>COMO FUNCIONA?: </b>São 6 dias de treinos, atividades, clínicas, torneios e lazer, com os melhores treinadores(as) e ídolos(as). Um ambiente de muito esporte e diversão.</p></div></div>
                         <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><p><b>QUEM PODE PARTICIPAR?: </b>Crianças e jovens de 11 a 17 anos, masculino e feminino, interessados em esporte e diversão nas férias. Aberto a todo(a)s interessado(a)s. Convide seus amigos e amigas!</p></div></div>
-                        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><p><b>QUEM SOMOS?: </b>A Vôlei Para Todos Esportes é uma empresa especializada em competições, viagens e acampamentos esportivos, há mais de 16 anos no cenário esportivo.</p></div></div>
+                        <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><p><b>QUEM SOMOS?: </b>A H10 Esportes é uma empresa especializada em competições, viagens e acampamentos esportivos, há mais de 16 anos no cenário esportivo.</p></div></div>
                     </div>
                 </div>
             </div>
@@ -886,7 +886,7 @@
         
         <div class="LateralE">
             <div class="center" style="background-color:#f3f4f6;"> 
-                <h3 style="padding-top:30px;"><span style="border-left: #FFD204 5px solid; padding-left: 5px; color: #223A8F;">PROJETOS Vôlei Para Todos</span></h3>
+                <h3 style="padding-top:30px;"><span style="border-left: #FFD204 5px solid; padding-left: 5px; color: #223A8F;">PROJETOS H10</span></h3>
                 <div class="center row">
                     <div class="col s12 m3 hide-on-small-only"></div>
                     <div class="col s12 m2"><a href="http://h10voleicup.com.br" target="_blank"><img class="responsive-img" src="Imagens/Logos/H10Cup.png" width="50%;"></a></div>
@@ -904,8 +904,8 @@
                     <a target="_blank" href="https://wa.me/message/GXQCVPUNNRUTO1"><img src="Imagens/midias/whats.png" alt="Instagram" height="20" width="20"></a>
                 </p>
                 <p align="center" style="margin: 0; padding: 0 0 20px 0; font-size: 15px; line-height: 18px;">
-                    &copy; 2025 Escola Vôlei Para Todos<br>
-                    Todos os direitos reservados  •   Desenvolvido por <a href="https://www.instagram.com/kffdesign" target="blank" style="color: #FFFFFF;">LSCJ-LDC Design</a><br>
+                    &copy; 2025 H10 Escola de Vôlei<br>
+                    Todos os direitos reservados  •   Desenvolvido por <a href="https://www.instagram.com/kffdesign" target="blank" style="color: #FFFFFF;">KFF! Design</a><br>
 
                 </p>
             </div>
@@ -930,7 +930,7 @@
             });
         </script>
         
-        <!--script>
+        <script>
             document.addEventListener('DOMContentLoaded', function() {
               var elems = document.querySelectorAll('.modal');
               var instances = M.Modal.init(elems, {});
@@ -939,7 +939,7 @@
               var instance = M.Modal.getInstance(meuModal);
               instance.open();
             });
-        </script-->
+        </script>
         
         <script>
             document.addEventListener('DOMContentLoaded', function() {
