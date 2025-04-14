@@ -1,3 +1,12 @@
+/* Paletas de Cores */
+:root {
+    --azul: #002777;
+    --amarelo: #FFDF00;
+    --branco: #fff;
+    --verde: #009C3B;
+    --preto: #000;
+  }
+
 body, html {
     margin: 0;
     padding: 0;
@@ -40,7 +49,7 @@ p{
 }
 
 .menu-link:hover{
-    background-color: rgba(255, 210, 4, 1);
+    background-color: var(--amarelo);/* rgba(255, 210, 4, 1)*/
     border-radius: 5px;
 }
 
