@@ -59,7 +59,7 @@ p{
 }
 
 .navbar.shrink {
-    background: rgba(255, 210, 4, 1);
+    background: var(--amarelo);/* rgba(255, 210, 4, 1)*/
     border-bottom: 2px #223A8F solid;
     height: 75px;
 }
@@ -788,7 +788,7 @@ input::-ms-input-placeholder {
         top: 10px;
         color: #223A8F;
         z-index: 999;
-        text-shadow: 2px 1px 1px rgba(255, 210, 4, 1);
+        text-shadow: 2px 1px 1px var(--amarelo);/* rgba(255, 210, 4, 1)*/
     }
     
     .sidenav{
