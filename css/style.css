@@ -1,8 +1,12 @@
 /* Paletas de Cores */
 :root {
     --azul: #002777;
+    --azul-meio: #223a8f;
     --amarelo: #FFDF00;
+    --amarelo-claro: #ffe987;
     --branco: #fff;
+    --cinza-claro: #f3f4f6;
+    --cinza-medio: #e0e0e0;
     --verde: #009C3B;
     --preto: #000;
   }
@@ -60,7 +64,7 @@ p{
 
 .navbar.shrink {
     background: var(--amarelo);/* rgba(255, 210, 4, 1)*/
-    border-bottom: 2px #223A8F solid;
+    border-bottom: 2px var(--azul) solid;
     height: 75px;
 }
 
@@ -76,13 +80,13 @@ p{
 }
 
  .inscricao-btn a {
-    color: #FFFFFF;
+    color: var(--branco);
  }
 
  .inscricao-btn {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    background-color: #FFD204;
+    background-color: var(--amarelo);
  }
 
 
@@ -93,12 +97,12 @@ p{
 
 .navbar.shrink .brand-logo,
 .navbar.shrink .nav-wrapper ul a {
-    color: #223A8F !important;
+    color: var(--azul) !important;
 }
 
 .navbar.shrink .brand-logo,
 .navbar.shrink .nav-wrapper ul a {
-    color: #223A8F !important;
+    color: var(--azul) !important;
 }
 
 .nav-wrapper {
@@ -121,21 +125,21 @@ p{
 }
 
 .navbar li a{
-    color: #223A8F;
+    color: var(--azul);
     font-size: 1.25em;
     line-height: 1.25em;
     padding: 10px;
 }
 
 .contagemR{
-    color:#223A8F;
+    color: var(--azul);
     margin:5px;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFD204;
+    background-color: var(--amarelo);
 }
 
 .contagemPai{
@@ -193,7 +197,7 @@ p{
     }
 
     .publico{
-        background-color: #FFD204;
+        background-color: var(--amarelo);
         width: 100%;
         margin: 0px auto 30px auto;
         padding-bottom: 0px;
@@ -224,33 +228,33 @@ p{
     }
 
     .quadroC {
-        color: #FFD204;
+        color: var(--amarelo);
         width: 175px;
         height: 175px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #223A8F;
+        background-color: var(--azul);
         padding: 5px;
         border-radius: 10px;
     }
     
     .pilaresDiv{
         width: 79%;
-        background-color:#FFD204;
-        color:#223A8F;
+        background-color: var(--amarelo);
+        color:var(--azul);
         padding:10px 0;
         margin:100px auto 0 auto;
     }
 
     .quadroA {
-        color: #223A8F;
+        color: var(--azul);
         width: 150px;
         height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #FFD204;
+        background-color: var(--amarelo);
         padding: 10px;
         border-radius: 10px;
     }
@@ -286,12 +290,12 @@ p{
 
 .centered-buttonB{
     height: 65px;
-    background-color: #223A8F;
-    color: #FFFFFF;
+    background-color: var(--azul);
+    color: var(--branco);
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    color:#FFD204;
+    color: var(--amarelo);
     padding: 5px 30px;
 }
 
@@ -305,7 +309,7 @@ p{
     }
 
 .objetivo{
-    background-color: #223A8F;
+    background-color: var(--azul);
     width: 80%;
     margin: 0 auto;
     padding-bottom: 0px;
@@ -333,7 +337,7 @@ p{
 }
 
 .cardObjetivo{
-    background-color: #f3f4f6;
+    background-color: var(--cinza-claro);
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -383,14 +387,14 @@ p{
 
 .cardLocalInfo p{
     font-size: 1.25em;
-    color: #223A8F;
+    color: var(--azul);
 }
 
 .cardInsc {
     width: 50vw;
     margin: 0 auto;
-    background-color: #223A8F;
-    color: #FFD204;
+    background-color: var(--azul);
+    color: var(--amarelo);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -417,7 +421,7 @@ p{
     width: 75%;
     margin: 15px auto;
     background: rgba(0, 0, 0, 0.75);
-    color: #FFFFFF;
+    color: var(--branco);
     font-size: 2em;
     text-align: center;
     padding: 15px;
@@ -450,7 +454,7 @@ p{
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #e0e0e0;
+    background: var(--cinza-medio);
 }
 
 .timeline-item {
@@ -465,12 +469,12 @@ p{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #223A8F;
+    background: var(--azul);
     margin: 10px 14px;
 }
 
 .timeline-content {
-    background: #fff;
+    background: var(--branco);
     padding-left: 5px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -514,7 +518,7 @@ p{
     top: 50%;
     transform: translateY(-50%);
     background: rgba(34, 58, 143, 0.5);
-    color: white;
+    color: var(--branco);
     border: none;
     width: 40px;
     height: 40px;
@@ -583,7 +587,7 @@ p{
 
 #whatsapp-text {
     font-size: 12px;
-    color: #223A8F;
+    color: var(--azul);
     margin-top: 5px;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -656,37 +660,37 @@ p{
 input {
     border-radius: 50px !important;
     background-color: #f4f4f4 !important;
-    color: #223A8F !important;
+    color: var(--azul) !important;
     padding: 10px !important;
 
 }
 
 input:focus {
-    border: 2px solid #223A8F !important;
+    border: 2px solid var(--azul) !important;
     box-shadow: none !important;
 }
 
 /* Estilizando o texto do placeholder */
 input::placeholder {
-    color: #223A8F;
+    color: var(--azul);
 }
 
 /* Para navegadores compatíveis com WebKit (opcional, se necessário) */
 input::-webkit-input-placeholder {
-    color: #223A8F;
+    color: var(--azul);
 }
 
 /* Para navegadores baseados no Edge */
 input::-ms-input-placeholder {
-    color: #223A8F;
+    color: var(--azul);
 }
 
 .btn-submit {
     position: relative;
     bottom: 0px;
     width: 100%;
-    background-color: #FFD204;
-    color: #223A8F;
+    background-color: var(--amarelo);
+    color: var(--azul);
     border: none;
     border-radius: 25px;
     padding: 10px;
@@ -697,7 +701,7 @@ input::-ms-input-placeholder {
 }
 
 .btn-submit:hover {
-    background-color: #FFD204;
+    background-color: var(--amarelo);
 }
 
 .DocsD{
@@ -708,7 +712,7 @@ input::-ms-input-placeholder {
 }
 
 .DocsD:hover{
-    background-color: #FFD204;
+    background-color: var(--amarelo);
 }
 
 @media screen and (min-width: 601px) {
@@ -726,7 +730,7 @@ input::-ms-input-placeholder {
 
 .expandable-item {
     margin-bottom: 5px;
-    border: 1px solid #223A8F;
+    border: 1px solid var(--azul);
     overflow: hidden;
     
 }
@@ -737,8 +741,8 @@ input::-ms-input-placeholder {
     align-items: center;
     padding: 10px;
     cursor: pointer;
-    background-color:#223A8F;
-    color:#FFD204;
+    background-color:var(--azul);
+    color: var(--amarelo);
 }
 
 
@@ -749,7 +753,7 @@ input::-ms-input-placeholder {
 .item-content {
     padding: 10px;
     display: none;
-    color:#223A8F;
+    color:var(--azul);
 }
 
 
@@ -765,13 +769,39 @@ input::-ms-input-placeholder {
 .tg td{background-color:#EBF5FF;border:none; padding:5px;word-break:normal;}
 .tg th{background-color:#409cff;border:none; padding:5px;word-break:normal;}
 
-.tg .tg-uqo31{background-color:#334eac; color:#ffd204; text-align:center;vertical-align:middle}
-.tg .tg-clab1{background-color:#ffd204;color:#223a8f;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-quxf1{background-color:#223a8f; color:#ffd204;text-align:center;vertical-align:middle}
+.tg .tg-uqo31{
+    background-color:#334eac; 
+    color: var(--amarelo); 
+    text-align: center;
+    vertical-align: middle}
+.tg .tg-clab1{
+    background-color: var(--amarelo);
+    color:var(--azul-meio);
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle}
+.tg .tg-quxf1{
+    background-color:var(--azul-meio); 
+    color: var(--amarelo);
+    text-align:center;
+    vertical-align:middle}
 
-.tg .tg-uqo32{background-color:#ffe987; color:#223a8f; text-align:center;vertical-align:middle}
-.tg .tg-clab2{background-color:#223a8f;color:#ffd204;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-quxf2{background-color:#ffd204; color:#223a8f;text-align:center;vertical-align:middle}
+.tg .tg-uqo32{
+    background-color:var(--amarelo-claro); 
+    color:var(--azul-meio); 
+    text-align:center;
+    vertical-align:middle}
+.tg .tg-clab2{
+    background-color:var(--azul-meio);
+    color: var(--amarelo);
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle}
+.tg .tg-quxf2{
+    background-color: var(--amarelo); 
+    color:var(--azul-meio);
+    text-align:center;
+    vertical-align:middle}
 
 
 
@@ -786,7 +816,7 @@ input::-ms-input-placeholder {
         position: fixed;
         right: 340px;
         top: 10px;
-        color: #223A8F;
+        color: var(--azul);
         z-index: 999;
         text-shadow: 2px 1px 1px var(--amarelo);/* rgba(255, 210, 4, 1)*/
     }
@@ -796,9 +826,9 @@ input::-ms-input-placeholder {
     }
     
     .sidenav li a{
-        color: #223A8F;
+        color: var(--azul);
         font-size: 1.25em;
-        border-bottom: 1px #223A8F solid;
+        border-bottom: 1px var(--azul) solid;
     }
     
     .nav-wrapper .brand-logo {
@@ -811,7 +841,7 @@ input::-ms-input-placeholder {
     }
     
     .contagemR, .contagemR{
-        color:#223A8F;
+        color:var(--azul);
         margin:5px;
         width: 60px;
         height: 60px;
@@ -819,7 +849,7 @@ input::-ms-input-placeholder {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #FFD204;
+        background-color: var(--amarelo);
     }
     
     .contagemPai{
@@ -875,12 +905,12 @@ input::-ms-input-placeholder {
     
     .centered-buttonB{
         height: 65px;
-        background-color: #223A8F;
-        color: #FFFFFF;
+        background-color: var(--azul);
+        color: var(--branco);
         border: none;
         border-radius: 50px;
         cursor: pointer;
-        color:#FFD204;
+        color: var(--amarelo);
     }
     
     .centered-buttonB p{
@@ -892,7 +922,7 @@ input::-ms-input-placeholder {
     }
     
     .objetivo{
-        background-color: #223A8F;
+        background-color: var(--azul);
         width: 90vw;
         margin: 0 auto;
         padding-bottom: 0px;
@@ -905,7 +935,7 @@ input::-ms-input-placeholder {
     }
     
     .publico{
-        background-color: #FFD204;
+        background-color: var(--amarelo);
         width: 100%;
         margin: 150px auto;
         padding-bottom: 0px;
@@ -916,7 +946,7 @@ input::-ms-input-placeholder {
     }
     
     .cardObjetivo{
-        background-color: #f3f4f6;
+        background-color: var(--cinza-claro);
         width: 80%;
         margin: 0 auto;
         position: relative;
@@ -949,8 +979,8 @@ input::-ms-input-placeholder {
     
     .pilaresDiv{
         width: 79%;
-        background-color:#FFD204;
-        color:#223A8F;
+        background-color: var(--amarelo);
+        color:var(--azul);
         padding:10px 0;
         margin:20px auto 0 auto;
     }
@@ -994,7 +1024,7 @@ input::-ms-input-placeholder {
         width: 90%;
         background: rgba(0, 0, 0, 0.5);
         margin: 15px auto;
-        color: #FFFFFF;
+        color: var(--branco);
         font-size: 1.5em;
         text-align: center;
         padding: 10px;
@@ -1032,7 +1062,7 @@ input::-ms-input-placeholder {
         top: 50%;
         transform: translateY(-50%);
         background: rgba(34, 58, 143, 0.5);
-        color: white;
+        color: var(--branco);
         border: none;
         width: 40px;
         height: 40px;
@@ -1111,7 +1141,7 @@ input::-ms-input-placeholder {
     
     #whatsapp-text {
         font-size: 12px;
-        color: #223A8F;
+        color: var(--azul);
         margin-top: 5px;
         opacity: 0;
         transition: opacity 0.3s ease;
